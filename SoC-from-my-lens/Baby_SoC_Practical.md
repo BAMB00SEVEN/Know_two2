@@ -1,7 +1,6 @@
 
 -----
 
-### The Definitive VSDBabySoC Guide: From RTL to GDSII Prep
 
 # The Definitive VSDBabySoC Guide: From RTL to GDSII Prep
 
@@ -39,8 +38,9 @@ sudo apt upgrade -y
 We'll install everything you need for simulation, synthesis, and visualization in one go. This command is corrected from older guides to work on modern Ubuntu versions.
 
 ```bash
-sudo apt install make git iverilog gtkwave python3-venv xdot graphviz
+sudo apt install make git iverilog gtkwave python3-venv 
 ```
+>`Note : if already installed then ignore this step, make file is usually pre-available in the github repository that you will copy ie; VsdBabySoC.`
 
 ### Step 3: Install Docker (The Modern, Official Way)
 
@@ -304,5 +304,7 @@ gtkwave simulation/dump.vcd
 * There will be lots of error while doing this experiment and AI tools will come to your rescue, make sure to have a strong mindset as the sheer number of errors can make you overwhelmed.
 * Errors will vary from system to system and configuration to configration, that is what handled by these SoC's underlying your system.
 * In the end you will be able to see your BABY, obviously BabySoC.
+* While learning about `functional modelling` we can clearly observe that Pre synthesis and Post synthesis file were giving the same waveform, signalling that we successfully conserved our modules functionality across the synthesis flow.
+* This validates that the synthesized netlist is functionally equivalent to the RTL design. 
 -----------------------
 
