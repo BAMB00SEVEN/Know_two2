@@ -2,7 +2,7 @@
 
 ***
 
-# Welcome to the World of System-on-Chip (SoC) 
+</summary># Welcome to the World of System-on-Chip (SoC)</summary>
 
 Alright, think about this for a second. Imagine building a whole city—I mean everything: a government, libraries, roads, airports, the works. Now, what if I told you that we could build that entire, complex city and then shrink it down to fit on a tiny sliver of silicon smaller than your fingernail?
 
