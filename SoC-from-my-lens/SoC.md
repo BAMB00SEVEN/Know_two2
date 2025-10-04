@@ -1,6 +1,6 @@
 
 
-***
+
 <details>
 </summary># Welcome to the World of System-on-Chip (SoC)</summary>
 
@@ -10,7 +10,7 @@ It sounds like science fiction, but that’s genuinely what a **System-on-Chip (
 
 
 
----
+
 
 ## What's Inside the Silicon City?
 
