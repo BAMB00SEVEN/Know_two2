@@ -1,8 +1,8 @@
-Of course. Here is all that information compiled into a complete `README.md` file.
+
 
 ***
 
-# Welcome to the World of System-on-Chip (SoC) 🏙️
+# Welcome to the World of System-on-Chip (SoC) 
 
 Alright, think about this for a second. Imagine building a whole city—I mean everything: a government, libraries, roads, airports, the works. Now, what if I told you that we could build that entire, complex city and then shrink it down to fit on a tiny sliver of silicon smaller than your fingernail?
 
@@ -48,13 +48,13 @@ A company might design the overall city plan but license a world-class "CPU dist
 
 ## Your First Project: Learning with BabySoC
 
-### Starting Small with BabySoC 🏡
+### Starting Small with BabySoC 
 If you wanted to become a world-class architect, you wouldn't start by trying to build a skyscraper. You'd probably start with a small house to learn the fundamentals.
 
 That's the whole idea behind the BabySoC. [cite_start]It's our starter town—a simplified model for learning SoC concepts[cite: 42]. It has a town hall (CPU), a small library (memory), and a single road out (a peripheral), but it’s simple enough that we can really get our hands dirty. By mastering this "baby" system, you learn the core secrets of SoC design fundamentals.
 
-### The "Magic" of a Digital Blueprint 📜
-Before we ever manufacture one of these silicon cities, we build the entire thing in a virtual world first. It’s a process called **functional modelling**. It's like playing the most detailed city-builder game you can imagine. We create a living, breathing digital twin of the chip and press "play" to watch data move around, spot potential traffic jams, and fix every single bug before it becomes a real, costly problem. [cite_start]This crucial step comes before the more detailed RTL and physical design stages[cite: 44].
+### The "Magic" of a Digital Blueprint 
+Before we ever manufacture one of these silicon cities, we build the entire thing in a virtual world first. It’s a process called **FUNCTIONAL MODELLING**. It's like playing the most detailed city-builder game you can imagine. We create a living, breathing digital twin of the chip and press "play" to watch data move around, spot potential traffic jams, and fix every single bug before it becomes a real, costly problem. [cite_start]This crucial step comes before the more detailed RTL and physical design stages[cite: 44].
 
 ---
 
