@@ -199,7 +199,8 @@ read_verilog -I src/include src/module/clk_gate.v
 read_verilog src/module/avsddac_stub.v
 read_verilog src/module/avsdpll_stub.v
 ```
-
+* Special Note : For stub files if you encounte any error then try using these lines `-I src/include` , before src/module/avsddac_stub.v and src/module/avspll_stub.v. This will solve the error and if not then the troubleshooting is on your side as the reasons for error might vary from person to person.
+  
 #### **Step 3.3: Load Technology Libraries**
 
   * **Use:** Loads the technology library files (`.lib`).
@@ -297,3 +298,11 @@ src/module/testbench.v
 vvp simulation/post_synth_sim.out
 gtkwave simulation/dump.vcd
 ```
+------------
+### The Conclusion 
+* The crux of this whole task and process was to get a perspective of how an SoC looks like , feels like , and works like.
+* There will be lots of error while doing this experiment and AI tools will come to your rescue, make sure to have a strong mindset as the sheer number of errors can make you overwhelmed.
+* Errors will vary from system to system and configuration to configration, that is what handled by these SoC's underlying your system.
+* In the end you will be able to see your BABY, obviously BabySoC.
+-----------------------
+
