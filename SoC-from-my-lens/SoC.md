@@ -1,6 +1,6 @@
 
 
-<details>
+
 
 <summary Welcome to the World of System-on-Chip (SoC)>
 
