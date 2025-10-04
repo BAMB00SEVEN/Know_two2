@@ -1,8 +1,8 @@
 
 
+<details>
 
-
-# Welcome to the World of System-on-Chip (SoC)
+<summary># Welcome to the World of System-on-Chip (SoC)</summary>
 
 Alright, think about this for a second. Imagine building a whole city—I mean everything: a government, libraries, roads, airports, the works. Now, what if I told you that we could build that entire, complex city and then shrink it down to fit on a tiny sliver of silicon smaller than your fingernail?
 
@@ -12,7 +12,7 @@ It sounds like science fiction, but that’s genuinely what a **System-on-Chip (
 ---
 
 
-## What's Inside the Silicon City?
+<summary> ## What's Inside the Silicon City? </summary>
 
 Every city has its essential districts, and our silicon version is no different. It's how all the parts work together that's so brilliant.
 
@@ -27,7 +27,7 @@ A city can't be isolated, right? It needs to communicate with the outside world.
 
 ### The Roads & Tunnels (The Interconnect)
 You can have the best buildings in the world, but without roads, you've just got a pile of buildings. The **interconnect** is the complex web of superhighways that connects everything. It’s a sophisticated bus system that lets the CPU, memory, and peripherals all talk to each other without causing a city-wide traffic jam.
-
+</details>
 ---
 
 ## The Incredible Balancing Act of Chip Design
