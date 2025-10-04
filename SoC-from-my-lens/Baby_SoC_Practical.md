@@ -1,6 +1,3 @@
-You are absolutely right. My apologies, the last response was not as clean as it should have been. Let's create the definitive, well-structured guide you're looking for.
-
-This version is designed to be clean, easy to read, and contains all the critical information in a logical flow. I have integrated the detailed explanations for each command in Phase 3 directly into the steps, ensuring every action has a clear purpose. All code snippets are in proper Markdown blocks for easy copying.
 
 -----
 
@@ -10,7 +7,7 @@ This version is designed to be clean, easy to read, and contains all the critica
 
 Welcome, future SoC designer\! This guide is your definitive, all-in-one resource for simulating and synthesizing the **VSDBabySoC**, a fantastic open-source System-on-Chip.
 
-We've combined insights from multiple guides and learned from real-world errors to create a single, foolproof walkthrough. Whether you're a complete beginner or just want a clean workflow, this is your starting point. We'll go from a fresh Linux setup to a fully synthesized, verified gate-level netlist ready for physical design.
+I've combined insights from multiple guides and learned from real-world errors to create a single, foolproof walkthrough. Whether you're a complete beginner or just want a clean workflow, this is your starting point. We'll go from a fresh Linux setup to a fully synthesized, verified gate-level netlist ready for physical design.
 
 ### The "Why": What is VSDBabySoC?
 
@@ -133,6 +130,8 @@ Use GTKWave to view the generated waveform.
 ```bash
 gtkwave output/pre_synth_sim/pre_synth_sim.vcd
 ```
+>
+><img width="3189" height="644" alt="Image" src="https://github.com/user-attachments/assets/78ce8417-db55-4765-9b0f-cc986f659d93" />
 
 > **💡 Pro Tip: Seeing the Sine Wave**
 > Your `OUT` signal might look like a blocky digital signal. To see the beautiful analog sine wave it represents:
@@ -160,6 +159,8 @@ After it completes, view the gate-level simulation results. They should look ide
 ```bash
 gtkwave output/post_synth_sim/post_synth_sim.vcd
 ```
+>
+><img width="3199" height="915" alt="Image" src="https://github.com/user-attachments/assets/9568c010-4ce3-4001-a351-7282f0567f30" />
 
 **Congratulations\!** You have now run a complete RTL-to-verified-netlist flow using the automated, modern method.
 
@@ -211,7 +212,8 @@ read_liberty -lib src/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 read_liberty -lib src/lib/avsddac.lib
 read_liberty -lib src/lib/avsdpll.lib
 ```
-
+><img width="3199" height="1999" alt="Image" src="https://github.com/user-attachments/assets/f09f488e-4431-4892-83b1-419e3b0d8d87" />
+><img width="1205" height="1999" alt="Image" src="https://github.com/user-attachments/assets/dac9c7e3-8df3-42b5-9312-1ba8bef6d120" />
 #### **Step 3.4: Run the Synthesis & Mapping Flow**
 
   * **Use:** This is the core sequence that transforms your design from abstract code to physical gates.
